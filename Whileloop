@@ -1,0 +1,15 @@
+public class Whileloop {
+    public class WhileLoopExample {
+    public static void main(String[] args) {
+        double[] rainfall = new double[30];
+        int i = 0;
+
+        while (i < 30) {
+            rainfall[i] = 20.5;
+            System.out.println("Day " + (i + 1) + ": " + rainfall[i] + " mm");
+            i++;
+        }
+    }
+}
+    
+}
